@@ -3,6 +3,8 @@ menu:
   主页: /
   归档: /archives
   关于: /about
+  Demo: /demo
+  相册: /photos
   #Tags: /tags
   #Categories: /categories
 ## you can create `tags` and `categories` folders in `../source`.
@@ -90,15 +92,15 @@ author:
 #### Toc
 toc:
   article: true   ## show contents in article.
-  aside: false     ## show contents in aside.
+  aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Links
 links:
+  ily: https://ily11.github.io/
   Airghc: https://airghc.gtensor.com
   rain: http://rain1ove.cn/
-  ily: https://ily11.github.io/
   wisexy: https://wisexy.github.io/
   #link2's name: link2's url
 
