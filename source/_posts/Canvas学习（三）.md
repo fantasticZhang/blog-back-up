@@ -455,7 +455,7 @@ demo地址：{% post_link 实例demo之Canvas小动画 %}
 假设两个小行星发生的是完全弹性碰撞，则根据动量守恒和能量守恒公式可推导出碰撞后第一颗小行星的新速度为:
 
     vX = ((tmpAsteroid.mass - tmpAsteroidB.mass) * vX + 2 * tmpAsteroidB.mass * vXb) / (tmpAsteroid.mass + tmpAsteroidB.mass);
-    
+
 推到过程如下图所示：
 
 ![](/images/2017-03-10/公式推导.PNG)
